@@ -20,7 +20,7 @@ class Event
 
     def postpone
         @start_date += (1440*60)
-        puts "L'evenement a ete reporter de 24h, soit prévu pour le #{@date_and_hour.day}/#{@date_and_hour.month}/#{@date_and_hour.year} prochain à #{@date_and_hour.hour}h#{@date_and_hour.min}."
+        puts "L'evenement a ete reporter de 24h"
     end
 end
 
